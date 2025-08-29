@@ -52,34 +52,6 @@ public class seekScript : MonoBehaviour
     }
 }
 ```
-```
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class fleeScript : MonoBehaviour
-{
-    // Start is called before the first frame update
-    public Transform target;  // The object to seek
-    public float speed = 5f;  // Movement speed
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (target == null) return;  // Exit if no target is assigned
-
-        // Calculate the desired direction
-        Vector3 direction = (transform.position-target.position).normalized;
-
-        // Move the object towards the target
-        transform.position += direction * speed * Time.deltaTime;
-    }
-}
-```
 ### Output:
 <img width="1462" height="751" alt="Screenshot 2025-08-22 140507" src="https://github.com/user-attachments/assets/80c87a17-67fe-41ec-86cd-e5ebd0715093" />
 
