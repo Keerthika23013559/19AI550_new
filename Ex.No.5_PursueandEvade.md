@@ -100,12 +100,13 @@ public class Pursuer: MonoBehaviour
         pursue();          
      }
 }
+```
 7. Attach the Script to each player,pursuer and Evader.
    Drag & Drop the Target from the Hierarchy into the "Target" field in the script component ( For pursuer and Evader).
 12. Run the game 
 13. Stop the program
     
-```
+
 ### Output:
 <img width="1276" height="689" alt="image" src="https://github.com/user-attachments/assets/8588bf49-1140-4449-a831-458d68cfcfd9" />
 
